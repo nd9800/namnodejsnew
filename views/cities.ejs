@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include("head")%>
+<body>
+    <section class="section">
+        <div class="container">
+                <% cities.map(function (e) {
+                //chỗ này phải lồng html%>
+            <li><a href="/thanh-pho/<%= e.id %>" target="_blank"><%= e.label %></a></li>
+               <% })%>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

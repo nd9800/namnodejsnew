@@ -1,0 +1,20 @@
+
+body {
+    background-image: url("https://c0.wallpaperflare.com/preview/572/961/266/sky-dark-light-clouds.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.hop1{
+    text-align: center;
+    color: lightgreen;
+    background-color: whitesmoke;
+}

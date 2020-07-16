@@ -1,0 +1,59 @@
+body{
+    background-image: url("https://c0.wallpaperflare.com/preview/572/961/266/sky-dark-light-clouds.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    color: lightblue;
+    font-size: 30px;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.item{
+    float: left;
+    width: 100%;
+    margin: 15px 0;
+    border: 1px solid #1b6d85;
+    border-radius:5px;
+    padding:20px;
+    background-color: #ffffff60;
+    position: relative;
+}
+.item p {
+    font-size: 20px;
+    color: #0a5d5d;
+}
+.item .temp{
+    font-size: 35px;
+}
+.item img{
+    position: absolute;
+    right: 10px;
+    top: 40px;
+}
+#map{
+    width: 100% ;
+    float: left;
+    height: 500px ;
+
+}
+.cities li{
+    float: left;
+    width: 100%;
+    list-style: none;
+    background-color: whitesmoke;
+    margin: 20px;
+}
+.cities li a{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0px;
+}
